@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(133, 139, 145);
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.cards{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.cards .card{
+    background-color: rgb(0, 144, 255);
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards .card a{
+    font-family: 'Bungee Spice', cursive;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards .card a:hover{
+    color: lightyellow;
+}
+
+.cards .card .header{
+    flex: 1;
+}
+
+.cards .card:hover{
+    margin-right: 80px;
+    transform: rotate(3deg) translatey(-15px);
+}
+
+.cards .card .header .date{
+    padding: 10px;
+}
+
+.cards .card .header .title{
+    font-size: 28px;
+}
+
+.cards .card .footer .autor a{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.cards .card .footer img{
+    width: 48px;
+    border-radius: 50%;
+}
+
+.cards .card[class*="element"]{
+    margin-left: -100px;
+}
+
+.title-1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.title-2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.title-3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.title-4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.date{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+
+span{
+    color: yellow;
+}
